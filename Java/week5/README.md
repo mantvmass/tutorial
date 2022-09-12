@@ -14,7 +14,7 @@ public class Test{
 
 Infomation hiding
 -----------------
-การซ้อน ตัวแปร หรือ ซ้อน methods จากภายนอก ของ class ของเรา
+การซ้อน ตัวแปร หรือ ซ้อน methods จากภายนอกของ class ของเรา
 ```java
 public class Test{
     public int test1; // No Infomation hiding
@@ -30,9 +30,6 @@ public class Test{
 }
 ```
 ```java
-// myApp.java
-// import Test.java
-
 public class myApp {
     public static void main(String[] args){
         Test myclass = new Test(); // use Test class in Test.java file 
@@ -49,3 +46,29 @@ public class myApp {
 Inheritance
 -----------
 การสืบถอดคลาส
+```java
+public class Test {
+    private int num;
+
+    public Test(int num){ // constructor method
+        this.num = num;
+    }
+
+    public void mon(){
+
+    }
+}
+
+public class lonTest extends Test { // extends = สืบถอดคลาส // สามารถใช้ methods จากคลาสแม่ของมันได้
+    private int enum;
+
+    public lonTest(int num, int enum){ // constructor
+        super(num); // ส่งต่อ constucture ไปยัง class แม่
+        this.enum = enum
+    }
+
+    public void man(){
+        // code ..
+    }
+}
+```
