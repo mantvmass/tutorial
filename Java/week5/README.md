@@ -1,11 +1,24 @@
 Encapsulation
 -------------
+Encapsulation คือการปกป้องข้อมูล/การปรับปรุงข้อมมูลโดยมีเงื่อนไข
+```java
+public class Test{
+    private int test; // Infomation hiding
+    public void test01(int pass){ // Encapsulation ปรับปรุงข้อมมูลโดยมีเงื่อนไข
+        if(pass == 1234){
+            test = 20;
+        }
+    }
+}
+```
+
+Infomation hiding
+-----------------
 การซ้อน ตัวแปร หรือ ซ้อน methods จากภายนอก ของ class ของเรา
 ```java
-// Test.java
 public class Test{
-    public int test1; // No Encapsulation
-    private int test2; // Encapsulation
+    public int test1; // No Infomation hiding
+    private int test2; // Infomation hiding
 
     public void test01(){
         // Code ..
