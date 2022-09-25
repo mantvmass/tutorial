@@ -33,7 +33,7 @@ def QueryTicket():
     return result
 
 
-def ConfirmTicket(seat, **kargw):
+def ConfirmTicket(seat, **kargw): # update data
     starcar, km = QueryToStation(kargw["from_t"]), 0
     for i in starcar:
         if i["data"]["station_id"] == kargw['to_t']: break
@@ -65,7 +65,7 @@ def ConfirmTicket(seat, **kargw):
     else: return status
     
 
-def CheckTicket(_from, _to): # call buy function
+def CheckTicket(_from, _to): # call buy function / main algorithm
     seat = []
     blockdata, blocked = [], []
     for i in range(8): # gen seat 4x8 = 32 seat
