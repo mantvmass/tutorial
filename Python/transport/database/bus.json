@@ -1,0 +1,63 @@
+{
+    "start": 111,
+    "target": 777,
+    "fare": 1,
+    "station": [
+        {
+            "data": {
+                "station_id": 111,
+                "name": "Ubon Ratchathani",
+                "park": [ 222, 98 ],
+                "to": [ 222, 333, 444, 555, 666, 777 ]
+            }
+        },
+        {
+            "data": {
+                "station_id": 222,
+                "name": "Yasothon",
+                "park": [ 333, 71 ],
+                "to": [ 333, 444, 555, 666, 777 ]
+            }
+        },
+        {
+            "data": {
+                "station_id": 333,
+                "name": "Roi Et",
+                "park": [ 444, 40 ],
+                "to": [ 444, 555, 666, 777 ]
+            }
+        },
+        {
+            "data": {
+                "station_id": 444,
+                "name": "Maha Sarakham",
+                "park": [ 555, 73 ],
+                "to": [ 555, 666, 777 ]
+            }
+        },
+        {
+            "data": {
+                "station_id": 555,
+                "name": "Khon Kaen",
+                "park": [ 666, 115 ],
+                "to": [ 666, 777 ]
+            }
+        },
+        {
+            "data": {
+                "station_id": 666,
+                "name": "Udon Thani",
+                "park": [ 777, 51 ],
+                "to": [ 777 ]
+            }
+        },
+        {
+            "data": {
+                "station_id": 777,
+                "name": "Nong Khai",
+                "park": null,
+                "to": null
+            }
+        }
+    ]
+}

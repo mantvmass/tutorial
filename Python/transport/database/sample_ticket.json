@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "ticket_id": 1,
+            "fullname": "Phumin Maliwan",
+            "price": 200,
+            "detail": {
+                "seat": "A1",
+                "from": 222,
+                "to": 555,
+                "km": 500
+            }
+        },
+        {
+            "ticket_id": 2,
+            "fullname": "Phumin Maliwan",
+            "price": 200,
+            "detail": {
+                "seat": "A1",
+                "from": 666,
+                "to": 777,
+                "km": 500
+            }
+        },
+        {
+            "ticket_id": 3,
+            "fullname": "Phumin Maliwan",
+            "price": 200,
+            "detail": {
+                "seat": "B5",
+                "from": 333,
+                "to": 777,
+                "km": 500
+            }
+        },
+        {
+            "ticket_id": 4,
+            "fullname": "Phumin Maliwan",
+            "price": 200,
+            "detail": {
+                "seat": "C1",
+                "from": 444,
+                "to": 555,
+                "km": 500
+            }
+        }
+    ]
+}
